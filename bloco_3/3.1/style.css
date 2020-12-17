@@ -3,6 +3,23 @@ body {
   margin: auto;
 }
 
+article {
+  margin: 6px;
+}
+
+#footer a {
+  font-size: 40px;
+  margin: 10px;
+  color: black;
+  background-color: #F1E7DA;
+}
+
+footer h3 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+
 img {
   height: auto;
   width: 200px;
@@ -46,6 +63,7 @@ h1 {
 h2, h3, h4 {
   background-color: #AE8057;
   color: white;
+  text-align: center;
 }
 
 section > a {
@@ -53,11 +71,15 @@ section > a {
   color: white;
 }
 
-section.descrition{
+section.descrition {
   margin-left: auto;
   margin-right: auto;
   width: 27%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section.academic {
+  
 }
 
 h2 ~ p {
@@ -80,4 +102,9 @@ align-items: center;
   margin: 0;
   padding: 10px 0 20px;
   text-align: center;
+}
+
+.title a {
+  margin-left: 45px;
+  margin-right: auto;
 }
