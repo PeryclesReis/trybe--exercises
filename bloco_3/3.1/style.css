@@ -22,12 +22,25 @@ section {
 }
 
 ul {
-  padding: 0;
+  padding: 0 44%;
 }
 
 li {
   
   list-style-type: none
+}
+
+.li01 {
+  background-color: #C5BAAF;
+  font-size: 18px;
+}
+
+.li02 {
+  font-size: 20px;
+}
+
+h1 {
+  font-family: monospace;
 }
 
 h2, h3, h4 {
@@ -38,6 +51,13 @@ h2, h3, h4 {
 section > a {
   background-color: #AE8057;
   color: white;
+}
+
+section.descrition{
+  margin-left: auto;
+  margin-right: auto;
+  width: 27%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h2 ~ p {
