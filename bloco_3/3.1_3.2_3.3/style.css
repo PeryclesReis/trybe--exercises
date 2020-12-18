@@ -30,7 +30,6 @@ img {
 
 .descrition p {
   float: right;
-  display: inline-block;
   width: 50%;
   margin-top: 20%;
 }
@@ -86,10 +85,6 @@ section.descrition {
   margin-right: auto;
   width: 43%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-section.academic {
-  
 }
 
 h2 ~ p {
