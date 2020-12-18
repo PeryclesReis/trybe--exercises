@@ -1,6 +1,7 @@
 // Faça cinco programas, um para cada operação aritmética básica. Seu programa deve ter duas variáveis, a e b , definidas no começo com os valores que serão operados. Faça programas para:
 let a = 2;
 let b = 5;
+let c = 10;
 // Adição
 console.log(a + b);
 // Subtração
@@ -16,3 +17,11 @@ console.log(a % b);
 if (a > b) {
   console.log('A é maior que B! ' + a);
 } else console.log('B é maior que A! ' + b);
+
+// Faça um programa que retorne o maior de três números. Defina no começo do programa três variáveis com os valores que serão comparados.
+if (a > b && a > c) {
+  return console.log('A é maior que B e C! ' + a);
+} else if (b > c) {
+  return console.log('B é maior que A e C! ' + b);
+} else 
+return console.log('C é maior que B e A! ' + c);
