@@ -90,3 +90,15 @@ for (const key in notas) {
   }
 }
 
+// Escreva um programa que defina três números em variáveis no seu começo e retorne true se pelo menos uma das três for par. Caso contrário, ele retorna false .
+// Bonus: use somente um if .
+let numeros = [3, 1, 2];
+
+for (const key in numeros) {
+  const element = numeros[key];
+  if ((element % 2) === 0) {
+    console.log('Temos um numero par!');
+    return true;
+    break;
+  }
+}
