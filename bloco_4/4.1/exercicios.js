@@ -44,3 +44,25 @@ if ((ladoA + ladoB + ladoc) === 180) {
 } else {
   return false;
 }
+
+// Escreva um programa que receba o nome de uma peça de xadrez e retorne os movimentos que ela faz.
+let peca = ['Queen', 'King', 'Horse'];
+
+for (const key in peca) {
+  const element = peca[key];
+  let pec = element.toLowerCase();
+  switch (pec) {
+    case 'queen':
+      console.log('Movimentos em: linha, coluna ou diagonal.');
+      break;
+    case 'king':
+      console.log('Uma casa para qualquer lado!');
+      break;
+    case 'horse':
+      console.log('Mova-se em formato de L.');
+      break;
+    default:
+      console.log('Não escolheu peça ainda!');
+      break;
+  }
+}
