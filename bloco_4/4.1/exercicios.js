@@ -102,3 +102,15 @@ for (const key in numeros) {
     break;
   }
 }
+
+// Escreva um programa que defina três números em variáveis no seu começo e retorne true se pelo menos uma das três for ímpar. Caso contrário, ele retorna false .
+let numeros1 = [3, 1, 2];
+
+for (const key in numeros1) {
+  const element = numeros1[key];
+  if ((element % 2) === 1) {
+    console.log('Temos um numero impar!');
+    return true;
+    break;
+  }
+}
