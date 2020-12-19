@@ -66,3 +66,27 @@ for (const key in peca) {
       break;
   }
 }
+
+// Escreva um programa que converte uma nota dada em porcentagem (de 0 a 100) em conceitos de A a F. Siga essas regras:
+let notas = [90,70,40,50,49,102]
+
+for (const key in notas) {
+  const nota = notas[key];
+  
+  if (nota < 0 || nota > 100){
+    console.log('Valor incorreto!');
+  } else if (nota >= 90) {
+    console.log('A');
+  } else if (nota >= 80) {
+    console.log('B');
+  } else if (nota >= 70) {
+    console.log('C');
+  } else if (nota >= 60) {
+    console.log('D');
+  } else if (nota >= 50) {
+    console.log('E');
+  } else if (nota < 50) {
+    console.log('F');
+  }
+}
+
