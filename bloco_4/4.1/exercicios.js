@@ -33,3 +33,14 @@ if (valor > 0) {
 } else if (valor < 0) {
   console.log('negative');
 } else console.log('zero');
+
+// Faça um programa que defina três variáveis com os valores dos três ângulos internos de um triângulo. Retorne true se os ângulos representarem os ângulos de um triângulo e false caso contrário.
+let ladoA = 0;
+let ladoB = 0;
+let ladoc = 0;
+
+if ((ladoA + ladoB + ladoc) === 180) {
+  return true;
+} else {
+  return false;
+}
