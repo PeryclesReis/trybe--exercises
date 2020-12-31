@@ -1,3 +1,4 @@
+
 function createDaysOfTheWeek() {
   const weekDays = ['Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado']
   const weekDaysList = document.querySelector('.week-days');
@@ -16,6 +17,7 @@ createDaysOfTheWeek();
 // Escreva seu código abaixo.
 const dezDaysList = [29, 30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];
 
+// exercicio 01
 function addDias(array) {
   let dias = document.querySelector('#days');
 
@@ -38,3 +40,38 @@ function addDias(array) {
   }
 }
 addDias(dezDaysList);
+
+// exercicio 02
+function botaoFeriado() {
+  let buttonsContainer = document.querySelector('.buttons-container');
+
+  let botao = document.createElement('button');
+  botao.id = 'btn-holiday';
+  botao.innerText = 'Feriados';
+  buttonsContainer.appendChild(botao);
+}
+botaoFeriado();
+
+// exercicio 03 'rgb(211, 211, 211)' normal rgb(238,238,238)
+let botaoHoliday = document.querySelector('#btn-holiday');
+
+function fundoFeriadoMudado() {
+  let feriados = document.querySelectorAll('.holiday');
+
+  for (let index = 0; index < feriados.length; index++) {
+    const elemento = feriados[index];
+    elemento.style.backgroundColor = 'rgb(211, 211, 211)';
+  }
+}
+
+function fundoFeriadoNormal(params) {
+  let feriados = document.querySelectorAll('.holiday');
+
+  for (let index = 0; index < feriados.length; index++) {
+    const elemento = feriados[index];
+    elemento.style.backgroundColor = 'rgb(238,238,238)';
+  }
+}
+
+botaoHoliday.addEventListener('mousedown', fundoFeriadoMudado);
+botaoHoliday.addEventListener('mouseleave', fundoFeriadoNormal);
