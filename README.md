@@ -37,20 +37,20 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] JavaScript - Objetos e funções
 - [X] Projeto - Playground Functions
 
-### Bloco 5: JavaScript: DOM, Eventos e Web Storage :books:
+### Bloco 5: JavaScript: DOM, Eventos e Web Storage :heavy_check_mark:
 - [x] JavaScript - DOM e seletores
 - [x] JavaScript - Trabalhando com elementos
 - [x] JavaScript - Eventos
-- [ ] JavaScript - Web Storage
-- [ ] Fundamentos - JavaScript - Projetos
-- [ ] Projeto - Arte com Pixels
-- [ ] Projeto - Lista de tarefas
+- [x] JavaScript - Web Storage
+- [x] Fundamentos - JavaScript - Projetos
+- [x] Projeto - Arte com Pixels
+- [x] Projeto - Lista de tarefas
 - [ ] (Bônus) Projeto - Meme Generator
-- [ ] (Bônus) Projeto - Adivinhe a Cor
+- [x] (Bônus) Projeto - Adivinhe a Cor
 - [ ] (Bônus) Projeto - Carta Misteriosa
 
-### Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo
-- [ ] HTML & CSS - Forms
+### Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo :books:
+- [x] HTML & CSS - Forms
 - [ ] Bibliotecas JavaScript e Frameworks CSS
 - [ ] Introdução - CSS Flexbox
 - [ ] CSS Flexbox - Parte 1
