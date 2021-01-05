@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>FORMULÁRIO</h1>
+  <form action="" method="GET" enctype="multipart/form-data">
+    <!-- <p>Email</p>
+    <input type="email" name="email" placeholder="Digite seu email!" required autocomplete="off" autofocus>
+    <p>Senha</p>
+    <input type="password" name="pass" placeholder="Digite sua senha!" required>
+    <input type="checkbox" >Lembre-me
+    <br>
+    <br>
+    <button type="submit">Entrar</button> -->
+    <label for="">Nome completo:
+      <input type="text" name="nome" id="nome-completo" placeholder="Digite seu nome" required>
+    </label>
+    <br>
+    <br>
+    <label for="">Email:
+      <input type="email" name="email" id="input-email" placeholder="Digite seu email" required>
+    </label>
+    <br>
+    <br>
+    <label for="">
+      <select name="estado" id="input-estado">
+        <option value="rj">Rio de Janeiro</option>
+        <option value="df" selected>Distrito Federal</option>
+        <option value="bh">Bahia</option>
+        <option value="pn">Pernambuco</option>
+      </select>
+      <br>
+      <p>Selecione sua foto:</p>
+      <input type="file" name="foto" id="foto-perfil">
+      <p>Comida favorita:</p>
+      <label for="comida-1">
+        <input type="radio" name="comida-favorira" id="comida-1" value="pizza">Pizza
+      </label>
+      <label for="comida-2">
+        <input type="radio" name="comida-favorira" id="comida-2" value="pizSorveteza">Sorvete
+      </label>
+      <label for="comida-3">
+        <input type="radio" name="comida-favorira" id="comida-3" value="Lasanha">Lasanha
+      </label>
+      <label for="comida-4">
+        <input type="radio" name="comida-favorira" id="comida-4" value="Stronghoff">Stronghoff
+      </label>
+      <p>Escreva algo sobre você:</p>
+      <textarea name="sobre-mim" id="textarea-1" cols="30" rows="5" placeholder="Exemplo:(altura, idade, onde mora)"></textarea>
+      <br>
+      <label for="">Senha:
+        <input type="password" name="senha" id="input-senha" required placeholder="digite sua senha!">
+      </label>
+      <label for="">
+        <input type="checkbox" name="promocoes" id="box-noticias">Deseja receber notícias incríveis?
+      </label>
+      <br>
+      <br>
+      <button type="submit">Enviar fomulário</button>
+    </label>
+  </form>
+</body>
+</html>

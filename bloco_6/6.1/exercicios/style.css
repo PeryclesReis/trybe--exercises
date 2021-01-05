@@ -1,0 +1,17 @@
+body {
+  background-color: mintcream;
+  padding: 10px 30px;
+}
+
+h1 {
+  margin-left: 10px;
+}
+
+.title {
+  border: solid 2px darkgray;
+  margin-bottom: 15px;
+}
+
+.primeiro-quadro{
+  border-radius: 5px;
+}
