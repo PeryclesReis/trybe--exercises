@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Formulário</title>
+</head>
+<body>
+  <form class="form-print" action="" method="GET">
+  <header class="title primeiro-quadro">
+    <h1>FORMULÁRIO</h1>
+  </header>
+  <fieldset class="primeiro-quadro">
+    <legend>Dados Pessoas:</legend>
+    <label for="name-complete">Nome Completo:
+      <input type="text" maxlength="40" id="name-complete" placeholder="digite seu nome" required>
+    </label>
+    <br>
+
+    <label for="email">Email:
+      <input type="email" maxlength="50" id="input-email" placeholder="digite seu email" required>
+    </label>
+    <br>
+
+    <label for="cpf">Cpf:
+      <input type="text" maxlength="11" id="input-cpf" placeholder="digite seu cpf" required>
+    </label>
+    <br>
+
+    <label for="">Endereço:
+      <input name="endereco" id="input-endereco" maxlength="200" placeholder="digite seu endereço"></input>
+    </label>
+
+    <label for="">Cidade:
+      <input name="cidade" id="input-cidade" maxlength="28" placeholder="digite seu endereço"></input>
+    </label>
+
+    <label for="input-estados">
+      <select name="estados" id="input-estados">
+      </select>
+    </label>
+
+    <label for="input-uf">
+      <select name="uf" id="input-uf">
+      </select>
+    </label>
+    <br>
+
+    <label for="moradia-1">Tipo:
+      <input type="radio" name="moradia" id="moradia-1" required>Apartamento
+    </label>
+    <label for="moradia-2">
+      <input type="radio" name="moradia" id="moradia-2" required>Casa
+    </label>
+  </fieldset>
+  <br>
+  <fieldset class="primeiro-quadro">
+    <legend>Esperiências</legend>
+    <p>Resumo do Currículo:</p>
+    <textarea name="resumo-currilo" id="input-resumo-currilo" cols="30" rows="10" maxlength="1000" required placeholder="digite aqui o resumo do seu curriculo"></textarea>
+    <br>
+    <label for="input-cargo">Cargo:
+      <input type="text" name="cargo" id="input-cargo" maxlength="40" placeholder="digite o cargo" required>
+    </label>
+
+    <p>Atividades do Cargo:</p>
+    <label for="input-descricao-cargo">
+      <textarea name="descricao-cargo" id="input-descricao-cargo" maxlength="500" cols="30" rows="5" required></textarea>
+    </label>
+
+    <br>
+    <label for="input-data-inicio">Data início:
+      <input type="date" name="data-inicio" id="input-data-inicio" required>
+    </label>
+    
+    <label for="input-data-inicio">Data Fim:
+      <input type="date" name="data-inicio" id="input-data-inicio">
+    </label>
+  </fieldset>
+  <br>
+  <div>
+      <button type="submit" id="botao-enviar">Enviar</button>
+      <button type="reset" id="botao-limpar">Limpar</button>
+  </div>
+  <script src="script.js"></script>
+</form>
+</body>
+</html>
