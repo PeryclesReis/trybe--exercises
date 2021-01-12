@@ -7,7 +7,7 @@
   <title>Formulário</title>
 </head>
 <body>
-  <form class="form-print" action="" method="GET">
+  <form class="form-print" action="" method="GET" enctype="multipart/form-data">
   <header class="title primeiro-quadro">
     <h1>FORMULÁRIO</h1>
   </header>
@@ -18,22 +18,22 @@
     </label>
     <br>
 
-    <label for="email">Email:
+    <label for="input-email">Email:
       <input type="email" maxlength="50" id="input-email" placeholder="digite seu email" required>
     </label>
     <br>
 
-    <label for="cpf">Cpf:
+    <label for="input-cpf">Cpf:
       <input type="text" maxlength="11" id="input-cpf" placeholder="digite seu cpf" required>
     </label>
     <br>
 
-    <label for="">Endereço:
+    <label for="input-endereco">Endereço:
       <input name="endereco" id="input-endereco" maxlength="200" placeholder="digite seu endereço"></input>
     </label>
 
-    <label for="">Cidade:
-      <input name="cidade" id="input-cidade" maxlength="28" placeholder="digite seu endereço"></input>
+    <label for="input-cidade">Cidade:
+      <input name="cidade" id="input-cidade" maxlength="28" placeholder="digite seu cidade"></input>
     </label>
 
     <label for="input-estados">
@@ -48,15 +48,15 @@
     <br>
 
     <label for="moradia-1">Tipo:
-      <input type="radio" name="moradia" id="moradia-1" required>Apartamento
+      <input type="radio" name="moradia" id="moradia-1" value="Apartamento" required>Apartamento
     </label>
     <label for="moradia-2">
-      <input type="radio" name="moradia" id="moradia-2" required>Casa
+      <input type="radio" name="moradia" id="moradia-2" value="Casa" required>Casa
     </label>
   </fieldset>
   <br>
   <fieldset class="primeiro-quadro">
-    <legend>Esperiências</legend>
+    <legend>Experiências</legend>
     <p>Resumo do Currículo:</p>
     <textarea name="resumo-currilo" id="input-resumo-currilo" cols="30" rows="10" maxlength="1000" required placeholder="digite aqui o resumo do seu curriculo"></textarea>
     <br>
@@ -83,6 +83,7 @@
       <button type="submit" id="botao-enviar">Enviar</button>
       <button type="reset" id="botao-limpar">Limpar</button>
   </div>
+  <div class="dados-inputs novo"></div>
   <script src="script.js"></script>
 </form>
 </body>

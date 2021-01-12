@@ -1,17 +1,43 @@
 body {
   background-color: mintcream;
+  background-image: url(fundo-1.jpg);
+  margin: 0 20%;
   padding: 10px 30px;
+}
+
+legend {
+  background-color: lightseagreen;
+  border: solid 1px;
+  border-radius: 10px;
+  color: aliceblue;
+  font-family: monospace;
+  font-size: 14px;
+  padding: 10px;
 }
 
 h1 {
   margin-left: 10px;
 }
 
-.title {
-  border: solid 2px darkgray;
-  margin-bottom: 15px;
+input {
+  margin: 6px;
 }
 
 .primeiro-quadro{
+  background-color: whitesmoke;
+  border: solid 1px lightseagreen;
   border-radius: 5px;
+}
+
+.title {
+  border: solid 1px lightseagreen;
+  color: lightseagreen;
+  font-family: monospace;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.novo {
+  background-color: lightyellow;
+  text-align: center;
 }

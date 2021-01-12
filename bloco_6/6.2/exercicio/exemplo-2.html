@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <script src="bootstrap.min.js"></script>
+  <title>Fomulário</title>
+</head>
+<body>
+
+    <h1 class="text-center mt-4">FORMULÁRIO</h1>
+  
+  <form action="" method="GET" enctype="multipart/form-data">
+
+    <div class="row">
+      <div class="col">Nome:
+        <input type="text" class="form-control" placeholder="Nome" aria-label="First name" required>
+      </div>
+      <div class="col">Sobrenome:
+        <input type="text" class="form-control" placeholder="Sobrenome" aria-label="Last name" required>
+      </div>
+    </div>
+
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Email:</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Digite seu email" required>
+    </div>
+
+    <div>
+      <label for="input-estado">Selecione o Estado:
+        <select class="form-select" name="estado" id="input-estado">
+          <option value="rj">Rio de Janeiro</option>
+          <option value="df" selected>Distrito Federal</option>
+          <option value="bh">Bahia</option>
+          <option value="pn">Pernambuco</option>
+        </select>
+    </div>
+
+      <div class="mb-3">
+        <label for="formFile" class="form-label">Selecione sua foto:</label>
+        <input class="form-control" type="file" id="formFile">
+      </div>
+
+    <fieldset class="row mb-3">
+      <legend class="col-form-label col-sm-2 pt-0">Comida favorita:</legend>
+      <div class="col-sm-10">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="comida-favorira" id="gridRadios1" value="option1">
+          <label class="form-check-label" for="gridRadios1">
+            Pizza
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="comida-favorira" id="gridRadios2" value="option2">
+          <label class="form-check-label" for="gridRadios2">
+            Sorvete
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="comida-favorira" id="gridRadios3" value="option3">
+          <label class="form-check-label" for="gridRadios3">
+            Lasanha
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="comida-favorira" id="gridRadios4" value="option3">
+          <label class="form-check-label" for="gridRadios4">
+            Stronghoff
+          </label>
+        </div>
+      </div>
+    </fieldset>
+
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Escreva algo sobre você:</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Exemplo:(altura, idade, onde mora)"></textarea>
+    </div>
+
+    <div class="row g-3 align-items-center">
+      <div class="col-auto">
+        <label for="inputPassword6" class="col-form-label">Senha:</label>
+      </div>
+      <div class="col-auto">
+        <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+      </div>
+      <div class="col-auto">
+        <span id="passwordHelpInline" class="form-text">
+          <input type="checkbox" name="promocoes" id="box-noticias">Deseja receber notícias incríveis?
+        </span>
+      </div>
+    </div>
+    <br>
+    <button class="btn btn-success" type="submit">Enviar fomulário</button>
+  </form>
+</body>
+</html>
