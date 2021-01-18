@@ -60,7 +60,7 @@ const elementoEstados = document.querySelector('#input-estados');
 const elementoUfs = document.querySelector('#input-uf');
 const dateControl = document.querySelector('input[type="date"]');
 
-const forms = document.querySelector('.form-print');
+const forms = document.querySelector('.dados-inputs');
 const todosOsDados = document.querySelectorAll('input');
 const selecaoEstado = document.querySelectorAll('select');
 const btnEnviar = document.querySelector('#botao-enviar');
@@ -92,10 +92,14 @@ addUfs(ufs);
 function imprimirDados(event) {
   event.preventDefault(event);
   for (let index = 0; index < todosOsDados.length; index++) {
-    const dados = document.createElement('p');
     const elementoDado = todosOsDados[index];
-    dados.innerText = elementoDado.value
-    forms.appendChild(dados);
+    if (elementoDado.value !== '') {
+      const dados = document.createElement('p');
+      elementoDado.parentNode.innerText;
+      dados.innerText = elementoDado.value;
+      // dados.parentNode.nodeName;
+      forms.appendChild(dados);
+    }
   }
   imprimirEstadoEUf();
   imprimirDadosTexto();
@@ -105,18 +109,22 @@ btnEnviar.addEventListener('click', imprimirDados);
 function imprimirEstadoEUf() {
   for (let index = 0; index < selecaoEstado.length; index++) {
     const elementosEstado = selecaoEstado[index];
-    const dados = document.createElement('p');
-    dados.innerText = elementosEstado.value
-    forms.appendChild(dados);
+    if (elementosEstado.value !== '') {
+      const dados = document.createElement('p');
+      dados.innerText = elementosEstado.value;
+      forms.appendChild(dados);
+    }
   }
 }
 
 function imprimirDadosTexto() {
   for (let index = 0; index < areaTexto.length; index++) {
     const elementoTexto = areaTexto[index];
-    const dados = document.createElement('p');
-    dados.innerText = elementoTexto.value
-    forms.appendChild(dados);
+    if (elementoTexto.value !== '') {
+      const dados = document.createElement('p');
+      dados.innerText = elementoTexto.value;
+      forms.appendChild(dados);
+    }
   }
 }
 
