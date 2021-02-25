@@ -71,25 +71,25 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
 - [x] Projeto - Zoo functions
 
-### Bloco 9: JavaScript Assíncrono e Promises :books:
-- [ ] JavaScript Assíncrono e Callbacks
-- [ ] JavaScript Promises
-- [ ] Projeto - Carrinho de Compras
+### Bloco 9: JavaScript Assíncrono e Promises :heavy_check_mark:
+- [x] JavaScript Assíncrono e Callbacks
+- [x] JavaScript Promises
+- [x] Projeto - Carrinho de Compras
 
-### Bloco 10: Testes automatizados com Jest
-- [ ] Primeiros passos no Jest
-- [ ] Jest - Testes Assíncronos
-- [ ] Jest - Simulando comportamentos
-- [ ] Projeto - Jest Assíncrono e Mocking
+### Bloco 10: Testes automatizados com Jest :heavy_check_mark:
+- [x] Primeiros passos no Jest
+- [x] Jest - Testes Assíncronos
+- [x] Jest - Simulando comportamentos
+- [x] Projeto - Jest Assíncrono e Mocking
 
-### Bloco 11: Introdução à React
-- [ ] Introdução - Front-end
-- [ ] Introdução - React
-- [ ] 'Hello, world!' no React!
-- [ ] Componentes React
-- [ ] Projeto - Movie Cards Library
+### Bloco 11: Introdução à React :heavy_check_mark:
+- [x] Introdução - Front-end
+- [x] Introdução - React
+- [x] 'Hello, world!' no React!
+- [x] Componentes React
+- [x] Projeto - Movie Cards Library
 
-### Bloco 12: Componentes com Estado, Eventos e Formulários com React
+### Bloco 12: Componentes com Estado, Eventos e Formulários com React :books:
 - [ ] Componentes com estado e eventos
 - [ ] Formulários no React
 - [ ] Projeto - Movie Cards Library Stateful
