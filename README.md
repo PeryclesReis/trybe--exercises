@@ -89,17 +89,17 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] Componentes React
 - [x] Projeto - Movie Cards Library
 
-### Bloco 12: Componentes com Estado, Eventos e Formulários com React :books:
-- [ ] Componentes com estado e eventos
-- [ ] Formulários no React
-- [ ] Projeto - Movie Cards Library Stateful
+### Bloco 12: Componentes com Estado, Eventos e Formulários com React :heavy_check_mark:
+- [x] Componentes com estado e eventos
+- [x] Formulários no React
+- [x] Projeto - Movie Cards Library Stateful
 
-### Bloco 13: Ciclo de Vida de Componentes e React Router
-- [ ] Ciclo de vida de componentes
-- [ ] React Router
+### Bloco 13: Ciclo de Vida de Componentes e React Router :books:
+- [x] Ciclo de vida de componentes
+- [x] React Router
 - [ ] Projeto - Movie Cards Library CRUD
 
-### Bloco 14: Metodologias Ágeis
+### Bloco 14: Metodologias Ágeis 
 - [ ] Metodologias Ágeis
 - [ ] Projeto - Frontend Online Store
 
