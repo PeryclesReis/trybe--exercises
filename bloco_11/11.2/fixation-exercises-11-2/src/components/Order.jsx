@@ -1,14 +1,13 @@
-// arquivo Order.js
-import React from 'react';
+import React, { Component } from 'react';
 
-class Order extends React.Component {
+class Order extends Component {
   render() {
-    const { user, product, price } = this.props;
-    const { value, currency } = this.props;
+
+    const { user, product, price } = this.props.order;
 
     return (
-      <div className="order">
-        <p> {user} bought {product} for {value} {currency} </p>
+      <div>
+        <p> {user} bought {product} for {price.value} {price.currency} </p>
       </div>
     );
   }
