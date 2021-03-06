@@ -1,0 +1,57 @@
+body {
+  background-image: url(https://wallpaperaccess.com/full/20996.jpg);
+}
+
+h1 {
+  background-color: rgb(255, 249, 242);
+  border-radius: 4px;
+  box-shadow: 1px 1px 4px black;
+  font-family: fantasy;
+  margin: 30px auto;
+  padding: 7px;
+  text-align: center;
+  width: 30%;
+}
+
+.pokemon-content {
+  background-color: rgb(255, 249, 242);
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-shadow: 1px 1px 6px black;
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  width: 35%;
+}
+
+.pokemon-content:last-child {
+  flex-basis: 70%;
+  padding: 0 6px;
+}
+
+.pokedex-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 950px) {
+  .app {
+    border: 2px solid rgb(251, 255, 5);
+    border-radius: 4px;
+  }
+
+  .pokedex-content {
+    flex-direction: column;
+  }
+
+  .pokemon-content {
+    margin: 5px auto;
+    width: 80%;
+  }
+
+  .pokemon-content:last-child {
+    flex-basis: 70%;
+    padding: 0;
+  }
+}
