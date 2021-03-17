@@ -1,4 +1,4 @@
-# Exercises Perin
+# Exercises Perin 🚀
 
 Este repositório mantém todas as atividades de aprendizagem desenvolvidas por Perycles dos Reis Floriano enquanto estudava na [Trybe](https://www.betrybe.com/).
 
