@@ -1,5 +1,4 @@
-# Trybe
-## Trybe -> Exercises
+# Exercises Perin
 
 Este repositório mantém todas as atividades de aprendizagem desenvolvidas por Perycles dos Reis Floriano enquanto estudava na [Trybe](https://www.betrybe.com/).
 
@@ -94,18 +93,18 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] Formulários no React
 - [x] Projeto - Movie Cards Library Stateful
 
-### Bloco 13: Ciclo de Vida de Componentes e React Router :books:
+### Bloco 13: Ciclo de Vida de Componentes e React Router :heavy_check_mark:
 - [x] Ciclo de vida de componentes
 - [x] React Router
-- [ ] Projeto - Movie Cards Library CRUD
+- [x] Projeto - Movie Cards Library CRUD
 
-### Bloco 14: Metodologias Ágeis 
-- [ ] Metodologias Ágeis
-- [ ] Projeto - Frontend Online Store
+### Bloco 14: Metodologias Ágeis :heavy_check_mark:
+- [x] Metodologias Ágeis
+- [x] Projeto - Frontend Online Store
 
-### Bloco 15: Testes automatizados com React Testing Library
-- [ ] RTL - Primeiros passos
-- [ ] RTL - Mocks e Inputs
+### Bloco 15: Testes automatizados com React Testing Library :books:
+- [x] RTL - Primeiros passos
+- [x] RTL - Mocks e Inputs
 - [ ] RTL - Testando React Router
 - [ ] Projeto - Testes em React
 
