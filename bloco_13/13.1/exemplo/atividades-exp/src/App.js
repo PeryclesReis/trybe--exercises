@@ -8,6 +8,18 @@ class App extends React.Component {
       counter: 0,
     };
   }
+
+  componentDidMount(){
+    this.setState({
+      counter: 10,
+    })
+  }
+
+  shouldComponentUpdate(){
+    if (this.state.counter >= 13 && this.state.counter <= 15) return false;
+    return true;
+  }
+
   render() {
     return (
       <div>
