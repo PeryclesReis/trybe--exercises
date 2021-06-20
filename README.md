@@ -93,7 +93,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] Formulários no React
 - [x] Projeto - Movie Cards Library Stateful
 
-### Bloco 13: Ciclo de Vida de Componentes e React Router :heavy_check_mark:
+### Bloco 13: Ciclo de Vida de Componentes e React Router
 - [x] Ciclo de vida de componentes
 - [x] React Router
 - [x] Projeto - Movie Cards Library CRUD
@@ -102,24 +102,24 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] Metodologias Ágeis
 - [x] Projeto - Frontend Online Store
 
-### Bloco 15: Testes automatizados com React Testing Library :books:
+### Bloco 15: Testes automatizados com React Testing Library
 - [x] RTL - Primeiros passos
 - [x] RTL - Mocks e Inputs
-- [ ] RTL - Testando React Router
-- [ ] Projeto - Testes em React
+- [x] RTL - Testando React Router
+- [x] Projeto - Testes em React
 
 ### Bloco 16: Gerenciamento de estado com Redux
-- [ ] Introdução ao Redux - O estado global da aplicação
-- [ ] Usando o Redux no React
-- [ ] Usando o Redux no React - Prática
-- [ ] Usando o Redux no React - Actions Assíncronas
-- [ ] Testes em React-Redux
-- [ ] Projeto - Trybe Wallet
+- [x] Introdução ao Redux - O estado global da aplicação
+- [x] Usando o Redux no React
+- [x] Usando o Redux no React - Prática
+- [x] Usando o Redux no React - Actions Assíncronas
+- [x] Testes em React-Redux
+- [x] Projeto - Trybe Wallet
 
-### Bloco 17: Projeto Jogo de Trivia
-- [ ] Projeto - Jogo de Trivia
+### Bloco 17: Projeto Jogo de Trivia :heavy_check_mark:
+- [x] Projeto - Jogo de Trivia
 
-### Bloco 18: Context API e React Hooks
+### Bloco 18: Context API e React Hooks :books:
 - [ ] Context API do React
 - [ ] React Hooks - useState e useContext
 - [ ] React Hooks - useEffect e Hooks customizados
